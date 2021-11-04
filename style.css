@@ -53,10 +53,10 @@ button:disabled:hover {
   filter: brightness(100%);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .continer {
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
   }
 
   button {
