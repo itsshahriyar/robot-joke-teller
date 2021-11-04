@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   background: url("./robot.gif");
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,5 +63,12 @@ button:disabled:hover {
   button {
     margin-top: 40rem;
     box-shadow: 5px 5px 20px 5px rgba(51, 24, 24, 0.3);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .continer {
+    background-size: contain;
+    background-position: center center;
   }
 }
