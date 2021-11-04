@@ -2,7 +2,6 @@ html {
   font-size: 62.5%;
 }
 body {
-  position: fixed;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,8 +13,7 @@ body {
 .continer {
   flex-direction: column;
   background: url("./robot.gif");
-  width: 100vw;
-  height: 80vh;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
