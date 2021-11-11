@@ -19,7 +19,7 @@ function toggleButton() {
 
 function tellMeJoke(joke) {
   VoiceRSS.speech({
-    key: YOUR_ROBOT_JOKE_TELLER_API,
+    key: YOUR_ROBOT_JOKE_TELLER_KEY,
     src: joke,
     hl: 'en-us',
     v: 'Linda',
